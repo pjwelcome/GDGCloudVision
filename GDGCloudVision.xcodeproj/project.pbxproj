@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42B53D9D396D24D5FBACFAA1 /* Pods_GDGCloudVision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0052F14DCFDC567FE40ABD4C /* Pods_GDGCloudVision.framework */; };
 		9974831F2027A2DD000CCD69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9974831E2027A2DD000CCD69 /* AppDelegate.swift */; };
 		997483212027A2DD000CCD69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997483202027A2DD000CCD69 /* ViewController.swift */; };
 		997483242027A2DD000CCD69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997483222027A2DD000CCD69 /* Main.storyboard */; };
 		997483262027A2DD000CCD69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997483252027A2DD000CCD69 /* Assets.xcassets */; };
 		997483292027A2DD000CCD69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997483272027A2DD000CCD69 /* LaunchScreen.storyboard */; };
 		997483342027A2DD000CCD69 /* GDGCloudVisionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997483332027A2DD000CCD69 /* GDGCloudVisionTests.swift */; };
+		9974833F2027A394000CCD69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9974833E2027A394000CCD69 /* GoogleService-Info.plist */; };
+		997483482028A17E000CCD69 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997483472028A17E000CCD69 /* ViewModel.swift */; };
+		F568F5900752FC9F47866313 /* Pods_GDGCloudVisionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98235FF68D1922DA99FB5437 /* Pods_GDGCloudVisionTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0052F14DCFDC567FE40ABD4C /* Pods_GDGCloudVision.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDGCloudVision.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D25BAE6B2E699BDF1B2059 /* Pods-GDGCloudVision.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDGCloudVision.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDGCloudVision/Pods-GDGCloudVision.debug.xcconfig"; sourceTree = "<group>"; };
+		865274FD558BB335873FBEFC /* Pods-GDGCloudVision.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDGCloudVision.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDGCloudVision/Pods-GDGCloudVision.release.xcconfig"; sourceTree = "<group>"; };
+		89E5522323208EB2B028DBB1 /* Pods-GDGCloudVisionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDGCloudVisionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDGCloudVisionTests/Pods-GDGCloudVisionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		98235FF68D1922DA99FB5437 /* Pods_GDGCloudVisionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDGCloudVisionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9974831B2027A2DD000CCD69 /* GDGCloudVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDGCloudVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9974831E2027A2DD000CCD69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		997483202027A2DD000CCD69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +45,9 @@
 		9974832F2027A2DD000CCD69 /* GDGCloudVisionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDGCloudVisionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		997483332027A2DD000CCD69 /* GDGCloudVisionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDGCloudVisionTests.swift; sourceTree = "<group>"; };
 		997483352027A2DD000CCD69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9974833E2027A394000CCD69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		997483472028A17E000CCD69 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		F6321724B03154D0537657CE /* Pods-GDGCloudVisionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDGCloudVisionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDGCloudVisionTests/Pods-GDGCloudVisionTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B53D9D396D24D5FBACFAA1 /* Pods_GDGCloudVision.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +63,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F568F5900752FC9F47866313 /* Pods_GDGCloudVisionTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60935594E7F3C2FB6D3C742A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83D25BAE6B2E699BDF1B2059 /* Pods-GDGCloudVision.debug.xcconfig */,
+				865274FD558BB335873FBEFC /* Pods-GDGCloudVision.release.xcconfig */,
+				89E5522323208EB2B028DBB1 /* Pods-GDGCloudVisionTests.debug.xcconfig */,
+				F6321724B03154D0537657CE /* Pods-GDGCloudVisionTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		997483122027A2DD000CCD69 = {
 			isa = PBXGroup;
 			children = (
 				9974831D2027A2DD000CCD69 /* GDGCloudVision */,
 				997483322027A2DD000CCD69 /* GDGCloudVisionTests */,
 				9974831C2027A2DD000CCD69 /* Products */,
+				60935594E7F3C2FB6D3C742A /* Pods */,
+				BA4F2F37B566C4DBD3BE1F91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +104,14 @@
 		9974831D2027A2DD000CCD69 /* GDGCloudVision */ = {
 			isa = PBXGroup;
 			children = (
+				9974833E2027A394000CCD69 /* GoogleService-Info.plist */,
 				9974831E2027A2DD000CCD69 /* AppDelegate.swift */,
 				997483202027A2DD000CCD69 /* ViewController.swift */,
 				997483222027A2DD000CCD69 /* Main.storyboard */,
 				997483252027A2DD000CCD69 /* Assets.xcassets */,
 				997483272027A2DD000CCD69 /* LaunchScreen.storyboard */,
 				9974832A2027A2DD000CCD69 /* Info.plist */,
+				997483472028A17E000CCD69 /* ViewModel.swift */,
 			);
 			path = GDGCloudVision;
 			sourceTree = "<group>";
@@ -96,6 +125,15 @@
 			path = GDGCloudVisionTests;
 			sourceTree = "<group>";
 		};
+		BA4F2F37B566C4DBD3BE1F91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0052F14DCFDC567FE40ABD4C /* Pods_GDGCloudVision.framework */,
+				98235FF68D1922DA99FB5437 /* Pods_GDGCloudVisionTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 997483382027A2DD000CCD69 /* Build configuration list for PBXNativeTarget "GDGCloudVision" */;
 			buildPhases = (
+				0A96DECE71B85C369FD3A60F /* [CP] Check Pods Manifest.lock */,
 				997483172027A2DD000CCD69 /* Sources */,
 				997483182027A2DD000CCD69 /* Frameworks */,
 				997483192027A2DD000CCD69 /* Resources */,
+				5AFC78A89A93D1E8A5D98525 /* [CP] Embed Pods Frameworks */,
+				211217B36356B3E22D5370A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9974833B2027A2DD000CCD69 /* Build configuration list for PBXNativeTarget "GDGCloudVisionTests" */;
 			buildPhases = (
+				A8945EC6E7F25CC7AC86017B /* [CP] Check Pods Manifest.lock */,
 				9974832B2027A2DD000CCD69 /* Sources */,
 				9974832C2027A2DD000CCD69 /* Frameworks */,
 				9974832D2027A2DD000CCD69 /* Resources */,
+				0671E5C4174C59EF665B7642 /* [CP] Embed Pods Frameworks */,
+				D09067EDFBDDBA2E1C69E422 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -180,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				997483292027A2DD000CCD69 /* LaunchScreen.storyboard in Resources */,
+				9974833F2027A394000CCD69 /* GoogleService-Info.plist in Resources */,
 				997483262027A2DD000CCD69 /* Assets.xcassets in Resources */,
 				997483242027A2DD000CCD69 /* Main.storyboard in Resources */,
 			);
@@ -194,12 +239,133 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0671E5C4174C59EF665B7642 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDGCloudVisionTests/Pods-GDGCloudVisionTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A96DECE71B85C369FD3A60F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDGCloudVision-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		211217B36356B3E22D5370A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDGCloudVision/Pods-GDGCloudVision-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AFC78A89A93D1E8A5D98525 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GDGCloudVision/Pods-GDGCloudVision-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDGCloudVision/Pods-GDGCloudVision-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8945EC6E7F25CC7AC86017B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GDGCloudVisionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D09067EDFBDDBA2E1C69E422 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDGCloudVisionTests/Pods-GDGCloudVisionTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		997483172027A2DD000CCD69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				997483212027A2DD000CCD69 /* ViewController.swift in Sources */,
+				997483482028A17E000CCD69 /* ViewModel.swift in Sources */,
 				9974831F2027A2DD000CCD69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +517,7 @@
 		};
 		997483392027A2DD000CCD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D25BAE6B2E699BDF1B2059 /* Pods-GDGCloudVision.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +533,7 @@
 		};
 		9974833A2027A2DD000CCD69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 865274FD558BB335873FBEFC /* Pods-GDGCloudVision.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +549,7 @@
 		};
 		9974833C2027A2DD000CCD69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E5522323208EB2B028DBB1 /* Pods-GDGCloudVisionTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +567,7 @@
 		};
 		9974833D2027A2DD000CCD69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6321724B03154D0537657CE /* Pods-GDGCloudVisionTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
