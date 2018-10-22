@@ -49,9 +49,7 @@ class ViewController: UIViewController {
     func parseVisionResponse(data: [String: Any]?) {
         guard let data = data else { return }
         
-        //let partialMatches = webAnnotations["visuallySimilarImages"] as? Array ?? [] Other related Images
         let entities = data["webEntities"] as? NSArray ?? []
-        
         var entitiesArr = [String]()
         entities.forEach {
             entity in

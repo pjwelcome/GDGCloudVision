@@ -3,8 +3,8 @@ const functions = require('firebase-functions');
 const admin = require("firebase-admin");
 admin.initializeApp(functions.config().firebase);
 
-exports.callVision = functions.storage.object().onChange(event => {
-    const object = event.data;
+exports.callVision = functions.storage.object().onFinalize((object) => {
+    //const object = objects.data;
     const fileBucket = object.bucket;
     const filePath = object.name;
     const gcsPath = `gs://${fileBucket}/${filePath}`;
