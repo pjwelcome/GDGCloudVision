@@ -3,10 +3,9 @@ const functions = require('firebase-functions');
 const admin = require("firebase-admin");
 admin.initializeApp(functions.config().firebase);
 
-exports.callVision = functions.storage.object().onChange(event => {
-    const object = event.data;
-    const fileBucket = object.bucket;
-    const filePath = object.name;
+exports.callVision = functions.storage.object.onFinalize(async (event) => {
+    const fileBucket = event.bucket;
+    const filePath = event.name;
     const gcsPath = `gs://${fileBucket}/${filePath}`;
 
     // Creates a client
