@@ -1,9 +1,9 @@
 const vision = require('@google-cloud/vision');
 const functions = require('firebase-functions');
 const admin = require("firebase-admin");
-admin.initializeApp(functions.config().firebase);
+admin.initializeApp()
 
-exports.callVision = functions.storage.object.onFinalize(async (event) => {
+exports.callVisions = functions.storage.object().onFinalize(async (event) => {
     const fileBucket = event.bucket;
     const filePath = event.name;
     const gcsPath = `gs://${fileBucket}/${filePath}`;
