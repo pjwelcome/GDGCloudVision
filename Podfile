@@ -9,6 +9,7 @@ target 'GDGCloudVision' do
   pod 'Firebase/Core'
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
+  pod 'Firebase/Functions'
 
   target 'GDGCloudVisionTests' do
     inherit! :search_paths
